@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Demo</title>
+  </head>
+
+  <body>
+   
+    <!--burada arama yeri search query ondan  siteye girip incelersiin  siteyi yazarken de zaten ? bundan sonrakini silmiştik googlede aynı şekil yaptık evde yap incele yavru ceylan-->
+
+    <hr />
+
+    <h2>Daha Fazla Input</h2>
+    <form action="/birds">
+      <input type="checkbox" name="Tos" id="kabul" checked />
+      <label for="kabul">Kabul ediyorum</label>
+      <button>Yolla</button>
+    </form>
+    <hr />
+
+    <fieldset>
+      <legend>Select a knife type:</legend>
+
+      <div>
+        <input type="radio" id="Sürmene Knife" name="aynı" value="çok iyi" checked />
+        <label for="huey">Sürmene Knife</label>
+      </div>
+
+      <div>
+        <input type="radio" id="The Cleaver" name="aynı" value="sert" />
+        <label for="dewey">The Cleaver</label>
+      </div>
+
+      <div>
+        <input type="radio" id="The Chef's Knife" name="aynı" value="farklı" />
+        <label for="ses">The Chef's Knife</label>
+      </div>
+    </fieldset>
+
+    <form action="/T-Shirts">
+      <p>
+        <label for="xs">XS:</label>
+        <input type="radio" name="boyut" id="xs" value="xs" />
+
+        <label for="s">S:</label>
+        <input type="radio" name="boyut" id="s" value="s" />
+
+        <label for="m">M:</label>
+        <input type="radio" name="boyut" id="m" value="m" />
+      </p>
+
+      <p></p>
+      <label for="hayvan">Favori hayvanınızı seçiniz</label>
+      <select name="hayvan" id="hayvan">
+        <option value=""selected>--Birini Seçiniz--</option>
+        <option value="Aslan">Aslan</option>
+        <option value="Kaplan">Kaplan</option>
+        <option value="Leopar" >Leopar</option>
+        http://127.0.0.1:5500/cat?hayvan=kedi
+      </select>
+
+     
+    
+
+    
+    
+  </body>
+</html>
+

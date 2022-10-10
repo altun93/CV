@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>My Contact information</h1>
+    <p>Address</p>
+    <p>(0-999)(999-99-99)</p>
+    <p>speaker500@hotmail.com</p>
+    <hr />
+    <hr />
+
+    <form
+      action="mailto:speaker500@hotmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <div>
+        <label for="Your">Your Name:</label>
+        <input type="text" name="Your" id="Your" />
+      </div>
+
+      <label for="em">Your Email:</label>
+      <input type="email" name="em" />
+      <br />
+
+      <div>
+        <label for="mes">Your Message:</label>
+        <br />
+        <textarea name="mes" id="mes" cols="30" rows="10">merhaba</textarea>
+      </div>
+
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
